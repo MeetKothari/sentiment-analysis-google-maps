@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script src="js/script.js"></script>
+    <title>Sentiment Analysis with Google Maps API</title>
+</head>
+<body>
+
+    <h1 class="header" id="init_header"> Can't decide where to eat? </h1>
+    <h2 class="headersub" id="init_header_message"> I've got you covered!</h2>
+
+    <div>
+      <label for="location-input">Location:</label>
+      <input type="text" id="location-input">
+      <label for="keyword-input">Keyword(s):</label>
+      <input type="text" id="keyword-input">
+      <button id="search-button">Search</button>
+    </div>
+
+    <div id="map" style="height: 400px; width: 100%;"></div>
+    
+</body>
+</html>

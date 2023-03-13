@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+* {
+    font-family: 'Sono', sans-serif;
+}
+
+#init_header_message {
+    font-style: italic;
+}
