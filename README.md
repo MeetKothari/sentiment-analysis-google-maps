@@ -1,4 +1,5 @@
-#👋 
+👋 
+
 This is a simple web application that allows you to search for restaurants based on a location and keyword using the Google Maps and Google Places APIs.
 
 # Installation
